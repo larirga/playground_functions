@@ -19,18 +19,23 @@ function splitSentence(string) {
 }
 
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(string) {
+  let arrayDeString = [];
+  arrayDeString += string[string.length - 1] + ', ' + string[0];
+  return arrayDeString;
 }
 
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
+function footballPoints(wins, ties) {
+  if (wins) {
+    return (wins * 3) + ties;
+  }
+  return (wins + ties);
 }
 
 // Desafio 6
-function highestCount() {
-  // seu código aqui
+function highestCount(arrayNumber) {
+
 }
 
 // Desafio 7
