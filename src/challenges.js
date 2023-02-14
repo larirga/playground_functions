@@ -84,14 +84,14 @@ return arrayNumbers;
 }
 
 // Desafio 9
-function encode(string) {
-let encodeString = string.replace(0, 0);
-encodeString = encodeString.replace(/a/g, '1');
-encodeString = encodeString.replace(/e/g, '2');
-encodeString = encodeString.replace(/i/g, '3');
-encodeString = encodeString.replace(/o/g, '4');
-encodeString = encodeString.replace(/u/g, '5');
-return encodeString;
+function encode(string) { // proximo commit colocar que eu alterei a indentacao
+  let encodeString = string.replace(0, 0);
+  encodeString = encodeString.replace(/a/g, '1');
+  encodeString = encodeString.replace(/e/g, '2');
+  encodeString = encodeString.replace(/i/g, '3');
+  encodeString = encodeString.replace(/o/g, '4');
+  encodeString = encodeString.replace(/u/g, '5');
+  return encodeString;
 }
 function decode(string2) {
   let decodeString = string2.replace(0, 0);
